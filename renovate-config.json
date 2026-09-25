@@ -5,5 +5,8 @@
   "repositories": [
     "home-server-project/home-server-packages"
   ],
-  "requireConfig": "required"
+  "requireConfig": "required",
+  "allowedCommands": [
+    "^bash scripts/renovate-refresh-package-commits\\.sh$"
+  ]
 }
